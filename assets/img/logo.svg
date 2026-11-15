@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="GodeX">
+  <path d="M18 95 C30 55 55 30 78 30" fill="none" stroke="#E2BC6E" stroke-width="7" stroke-linecap="round"/>
+  <path d="M82 95 C70 55 45 30 22 30" fill="none" stroke="#E2738F" stroke-width="7" stroke-linecap="round"/>
+  <circle cx="30" cy="12" r="8.5" fill="#E2738F"/>
+  <circle cx="70" cy="12" r="8.5" fill="#E2BC6E"/>
+</svg>

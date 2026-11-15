@@ -1,0 +1,94 @@
+<article class="wrap doc">
+  <h1>Política de privacidad</h1>
+  <p class="updated">Última actualización: {{last_updated}}</p>
+
+  <p>Esta política explica qué datos trata la app GodeX para iPhone («GodeX» o «la app»), dónde se conservan, quién puede verlos y cómo puedes ejercer tus derechos según el Reglamento (UE) 2016/679 («RGPD»). También se aplica a este sitio.</p>
+
+  <h2>En resumen</h2>
+  <ul>
+    <li>GodeX <strong>no tiene servidores propios</strong>: tus datos están en tu iPhone y en tu cuenta personal de iCloud. Nosotros no los recibimos ni podemos leerlos.</li>
+    <li>Con tu pareja los datos pasan solo por el uso compartido de iCloud, y solo los que eliges compartir.</li>
+    <li>Sin publicidad, sin rastreo, sin herramientas de analítica ni SDK de terceros, sin venta de datos.</li>
+    <li>Puedes exportarlo o eliminarlo todo desde la app en cualquier momento.</li>
+  </ul>
+
+  <h2>1. Responsable del tratamiento y contacto</h2>
+  <p>Responsable: {{controller}}, {{controller_address}}. Para cualquier pregunta sobre privacidad: {{mailto:privacy_email}}.</p>
+  <p><mark class="todo">[POR EVALUAR con el asesor: en qué tratamientos el desarrollador es responsable, dado que los datos del diario se quedan en el dispositivo y en el iCloud del usuario y el desarrollador no tiene acceso a ellos; resultado de la evaluación de impacto (EIPD) y si hace falta un delegado de protección de datos (DPD).]</mark></p>
+
+  <h2>2. Qué datos trata la app</h2>
+  <table>
+    <thead><tr><th scope="col">Datos</th><th scope="col">Detalle</th><th scope="col">Dónde están</th></tr></thead>
+    <tbody>
+      <tr><td>Cuenta</td><td>El identificador anónimo que Apple asigna a GodeX cuando inicias sesión con Apple. GodeX <strong>no pide</strong> ni tu nombre ni tu correo.</td><td>Llavero de tu iPhone</td></tr>
+      <tr><td>Confirmaciones</td><td>La confirmación de tener al menos 18 años y el consentimiento al tratamiento de los datos sobre tu salud y tu vida sexual, con la fecha y la versión del texto.</td><td>Solo en tu iPhone</td></tr>
+      <tr><td>Momentos del diario</td><td>Fecha y hora, duración, tipo de relación, preliminares y juguetes, protección y método anticonceptivo, lugar (texto libre que escribes tú, sin ubicación GPS), notas, etiquetas.</td><td>iPhone e iCloud</td></tr>
+      <tr><td>Voto, estado de ánimo y notas privadas</td><td>Tu voto (1–5), tu estado de ánimo y las notas que marcas como privadas.</td><td>iPhone y tu iCloud privado</td></tr>
+      <tr><td>Ciclo</td><td>Fechas de inicio y fin de los ciclos y las previsiones que calcula la app (próximo ciclo, ventana fértil).</td><td>iPhone y tu iCloud privado</td></tr>
+      <tr><td>Pareja</td><td>El vínculo con tu pareja (uso compartido de iCloud), la señal «he votado» y, si lo eliges, tu ciclo o solo las previsiones. iCloud puede mostraros mutuamente el nombre, o el correo o número con el que se abrió la invitación.</td><td>Zona compartida de iCloud de la pareja</td></tr>
+      <tr><td>Recordatorios</td><td>Los recordatorios de pruebas y revisiones que creas (tipo, frecuencia, vencimiento).</td><td>Solo en tu iPhone</td></tr>
+      <tr><td>Widgets</td><td>Un resumen con solo números y textos neutros (semanas seguidas, puntos, nivel, días hasta el próximo evento), nunca fechas, tipos, votos ni notas.</td><td>Solo en tu iPhone</td></tr>
+      <tr><td>Preferencias</td><td>Ajustes de la app (notificaciones, icono, widgets, qué ve tu pareja).</td><td>Solo en tu iPhone</td></tr>
+    </tbody>
+  </table>
+  <p>Puntos, niveles, insignias, retos y estadísticas no se guardan: la app los recalcula cada vez a partir de los momentos.</p>
+
+  <h2>3. Datos de salud y de vida sexual</h2>
+  <p>Los datos del diario y del ciclo son categorías especiales de datos (art. 9 RGPD). GodeX solo los trata con tu <strong>consentimiento explícito</strong>, que das en el primer acceso con un interruptor separado de la confirmación de los 18 años. Puedes retirarlo en cualquier momento desde <em>Ajustes → Privacidad → Retirar el consentimiento</em>: la retirada lleva a eliminar tus datos, porque sin consentimiento la app no puede funcionar. La retirada no afecta a la licitud del tratamiento anterior.</p>
+
+  <h2>4. Apple Salud (HealthKit)</h2>
+  <p>Solo si lo autorizas en la pantalla de permisos de iOS, GodeX:</p>
+  <ul>
+    <li><strong>escribe</strong> en Salud los momentos (como actividad sexual, con la indicación sí/no de la protección) y los ciclos (flujo menstrual);</li>
+    <li><strong>lee</strong> de Salud el historial de actividad sexual y flujo menstrual, cuando eliges «Importar desde Salud».</li>
+  </ul>
+  <p>Los datos leídos de Salud se convierten en momentos y ciclos de tu diario y siguen las mismas reglas. No se usan para publicidad, elaboración de perfiles ni otros fines, y nunca se venden ni se ceden a terceros. Puedes cambiar los permisos en <em>Salud → perfil → Apps → GodeX</em>.</p>
+  <p><mark class="todo">[POR VERIFICAR: compatibilidad del guardado en iCloud de los datos importados de Salud con la directriz 5.1.3 del App Store.]</mark></p>
+
+  <h2>5. Dónde se conservan los datos y quién puede verlos</h2>
+  <ul>
+    <li><strong>En tu iPhone</strong> los datos tienen la protección de archivos más alta de iOS: son ilegibles cuando el teléfono está bloqueado. La app solo se abre con Face ID, Touch ID o el código.</li>
+    <li><strong>En tu iCloud</strong> (CloudKit, base de datos privada): el diario se sincroniza entre tus dispositivos. Todos los campos del diario, salvo los identificadores técnicos de los registros, se guardan con el cifrado de CloudKit: las claves están en el Llavero de iCloud y, según Apple, ni Apple ni GodeX pueden leer su contenido. El servicio iCloud lo presta Apple según sus condiciones y su política de privacidad.</li>
+    <li><strong>Con tu pareja</strong>: cuando os vinculáis, los momentos compartidos pasan a una zona de iCloud compartida entre vosotros dos, cifrada del mismo modo. Voto, estado de ánimo y notas privadas <strong>nunca entran</strong> en la zona compartida: tu pareja solo recibe la señal «he votado» y ve los votos solo cuando habéis votado los dos. El ciclo llega a tu pareja solo como tú eliges (todo, solo previsiones o nada).</li>
+    <li><strong>GodeX (nosotros)</strong> no tiene acceso a ninguno de estos datos. No existe ningún servidor ni base de datos nuestra que los reciba.</li>
+  </ul>
+  <p>Los servidores de iCloud pueden estar fuera de la Unión Europea: la transferencia la gestiona Apple según sus condiciones. <mark class="todo">[POR VERIFICAR con el asesor: redacción sobre transferencias fuera de la UE.]</mark></p>
+
+  <h2>6. Notificaciones</h2>
+  <ul>
+    <li><strong>Avisos de tu pareja</strong>: cuando tu pareja actualiza el diario de pareja, iCloud te envía una notificación con un texto fijo y genérico (por ejemplo «Hay novedades en vuestro diario.»), sin contenido del diario. Pasa por el servicio de notificaciones de Apple.</li>
+    <li><strong>Ventana fértil y recordatorios</strong>: son notificaciones locales, programadas y mostradas por tu iPhone; por defecto tienen un texto genérico.</li>
+  </ul>
+  <p>Se desactivan en <em>Ajustes → Notificaciones</em> de la app o de iOS.</p>
+
+  <h2>7. Lo que GodeX no hace</h2>
+  <ul>
+    <li>No usa publicidad, cookies, identificadores publicitarios ni rastreo entre apps y sitios.</li>
+    <li>No integra herramientas de analítica, informes de fallos ni SDK de terceros.</li>
+    <li>No accede a tu ubicación, contactos, fotos, micrófono ni cámara. (El código QR de la invitación se escanea con la app Cámara del otro iPhone.)</li>
+    <li>No toma decisiones automatizadas ni elabora perfiles.</li>
+  </ul>
+  <p>Si en los ajustes de iOS has elegido compartir los datos de análisis con los desarrolladores, Apple puede facilitarnos estadísticas agregadas e informes de fallos de la app, que no contienen nada del diario. Puedes cambiarlo en <em>Ajustes de iOS → Privacidad y seguridad → Análisis y mejoras</em>.</p>
+
+  <h2>8. Bases jurídicas</h2>
+  <ul>
+    <li>Datos de salud y de vida sexual: consentimiento explícito (art. 9.2.a y art. 6.1.a RGPD).</li>
+    <li>Funcionamiento de la app y del uso compartido con tu pareja que solicitas: ejecución del servicio (art. 6.1.b RGPD).</li>
+  </ul>
+
+  <h2>9. Durante cuánto tiempo</h2>
+  <p>Los datos se conservan hasta que los eliminas. <em>Ajustes → Eliminar todos los datos</em> borra del teléfono y de iCloud tus entradas, tus votos y tus ciclos. Las entradas que escribió tu pareja siguen siendo suyas; si te desvinculas, tu pareja conserva su copia de los momentos compartidos. Eliminar la app no borra los datos de iCloud: usa antes «Eliminar todos los datos», o gestiona el almacenamiento de iCloud desde los ajustes de iOS. Los recordatorios y las preferencias locales desaparecen con la app.</p>
+
+  <h2>10. Tus derechos</h2>
+  <p>Tienes derecho de acceso, rectificación, supresión, limitación, portabilidad y oposición, y a retirar el consentimiento en cualquier momento. La mayoría los ejerces directamente en la app: editas o eliminas cada entrada, lo exportas todo con <em>Ajustes → Exportar todo (JSON)</em> y lo eliminas todo con <em>Eliminar todos los datos</em>. Como no conservamos tus datos, no podemos consultarlos ni eliminarlos por ti, pero sí ayudarte a hacerlo: escribe a {{mailto:privacy_email}}.</p>
+  <p>También tienes derecho a presentar una reclamación ante una autoridad de control: en España la Agencia Española de Protección de Datos (<a href="https://www.aepd.es">aepd.es</a>), en Italia el Garante per la protezione dei dati personali, o la del país donde vives.</p>
+
+  <h2>11. Menores</h2>
+  <p>GodeX es solo para mayores de edad. En el primer acceso la app pide confirmar que tienes al menos 18 años.</p>
+
+  <h2>12. Este sitio</h2>
+  <p>El sitio está alojado en GitHub Pages (GitHub, Inc.). No usa cookies, analíticas ni fuentes o recursos cargados de otros sitios. GitHub puede registrar la dirección IP de los visitantes por seguridad y para el funcionamiento del servicio, según su propia política. Si nos escribes por correo, usamos tu dirección y tu mensaje solo para responderte.</p>
+
+  <h2>13. Cambios</h2>
+  <p>Si esta política cambia, actualizamos la fecha de arriba. Si el cambio afecta al consentimiento sobre los datos de salud, la app te lo volverá a pedir antes de continuar.</p>
+</article>

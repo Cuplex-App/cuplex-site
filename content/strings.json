@@ -1,0 +1,170 @@
+{
+  "it": {
+    "language_name": "Italiano",
+    "skip": "Vai al contenuto",
+    "nav_label": "Menu principale",
+    "lang_label": "Lingua",
+    "nav_home": "Home",
+    "nav_privacy": "Privacy",
+    "nav_terms": "Termini",
+    "nav_support": "Supporto",
+    "draft_title": "Bozza.",
+    "draft_text": "Questo testo è in preparazione e non è ancora valido: le parti evidenziate sono da completare e il testo va verificato da un consulente legale prima della pubblicazione su App Store.",
+    "footer": "<ul><li><a href=\"privacy.html\">Informativa sulla privacy</a></li><li><a href=\"terms.html\">Termini di servizio</a></li><li><a href=\"support.html\">Supporto e contatti</a></li></ul><p>GodeX è in fase di test su iPhone. Questo sito non usa cookie, non traccia le visite e non carica risorse da altri siti.</p>",
+    "trademarks": "Apple, iPhone, iCloud, Apple Salute, Face ID, Siri e TestFlight sono marchi di Apple Inc. GodeX non è affiliata ad Apple.",
+    "pages": {
+      "index": {
+        "title": "GodeX – il diario di coppia, privato e cifrato",
+        "description": "GodeX è il diario di coppia per iPhone: momenti, voti privati che si svelano insieme, gioco di coppia, ciclo condiviso e Apple Salute. Senza server nostri e senza tracciamento."
+      },
+      "privacy": {
+        "title": "Informativa sulla privacy – GodeX",
+        "description": "Quali dati tratta GodeX, dove restano e come cancellarli."
+      },
+      "terms": {
+        "title": "Termini di servizio – GodeX",
+        "description": "Le condizioni d'uso dell'app GodeX."
+      },
+      "support": {
+        "title": "Supporto e contatti – GodeX",
+        "description": "Domande frequenti, risoluzione dei problemi e contatti di GodeX."
+      }
+    },
+    "placeholders": {
+      "controller": "TITOLARE: nome e cognome o ragione sociale",
+      "controller_address": "INDIRIZZO del titolare",
+      "privacy_email": "EMAIL per la privacy",
+      "support_email": "EMAIL di supporto",
+      "tester_email": "EMAIL o modulo per candidarsi come tester",
+      "testflight_url": "LINK pubblico di TestFlight",
+      "governing_law": "LEGGE APPLICABILE",
+      "court": "FORO COMPETENTE"
+    }
+  },
+  "en": {
+    "language_name": "English",
+    "skip": "Skip to content",
+    "nav_label": "Main menu",
+    "lang_label": "Language",
+    "nav_home": "Home",
+    "nav_privacy": "Privacy",
+    "nav_terms": "Terms",
+    "nav_support": "Support",
+    "draft_title": "Draft.",
+    "draft_text": "This text is being prepared and is not yet in force: the highlighted parts are still to be completed, and the text must be reviewed by a legal adviser before publication on the App Store.",
+    "footer": "<ul><li><a href=\"privacy.html\">Privacy policy</a></li><li><a href=\"terms.html\">Terms of service</a></li><li><a href=\"support.html\">Support and contact</a></li></ul><p>GodeX is being tested on iPhone. This site uses no cookies, does not track visits and loads nothing from other sites.</p>",
+    "trademarks": "Apple, iPhone, iCloud, Apple Health, Face ID, Siri and TestFlight are trademarks of Apple Inc. GodeX is not affiliated with Apple.",
+    "pages": {
+      "index": {
+        "title": "GodeX – the couple's diary, private and encrypted",
+        "description": "GodeX is the couple's diary for iPhone: moments, private ratings revealed together, a couple's game, a shared cycle and Apple Health. No servers of our own, no tracking."
+      },
+      "privacy": {
+        "title": "Privacy policy – GodeX",
+        "description": "What data GodeX processes, where it stays and how to delete it."
+      },
+      "terms": {
+        "title": "Terms of service – GodeX",
+        "description": "The terms of use of the GodeX app."
+      },
+      "support": {
+        "title": "Support and contact – GodeX",
+        "description": "FAQ, troubleshooting and how to contact GodeX."
+      }
+    },
+    "placeholders": {
+      "controller": "CONTROLLER: full name or company name",
+      "controller_address": "CONTROLLER'S ADDRESS",
+      "privacy_email": "PRIVACY EMAIL",
+      "support_email": "SUPPORT EMAIL",
+      "tester_email": "EMAIL or form to apply as a tester",
+      "testflight_url": "PUBLIC TESTFLIGHT LINK",
+      "governing_law": "GOVERNING LAW",
+      "court": "COMPETENT COURT"
+    }
+  },
+  "fr": {
+    "language_name": "Français",
+    "skip": "Aller au contenu",
+    "nav_label": "Menu principal",
+    "lang_label": "Langue",
+    "nav_home": "Accueil",
+    "nav_privacy": "Confidentialité",
+    "nav_terms": "Conditions",
+    "nav_support": "Assistance",
+    "draft_title": "Brouillon.",
+    "draft_text": "Ce texte est en préparation et n'est pas encore en vigueur : les parties surlignées restent à compléter et le texte doit être vérifié par un conseiller juridique avant la publication sur l'App Store.",
+    "footer": "<ul><li><a href=\"privacy.html\">Politique de confidentialité</a></li><li><a href=\"terms.html\">Conditions d'utilisation</a></li><li><a href=\"support.html\">Assistance et contact</a></li></ul><p>GodeX est en phase de test sur iPhone. Ce site n'utilise pas de cookies, ne suit pas les visites et ne charge rien depuis d'autres sites.</p>",
+    "trademarks": "Apple, iPhone, iCloud, Apple Santé, Face ID, Siri et TestFlight sont des marques d'Apple Inc. GodeX n'est pas affiliée à Apple.",
+    "pages": {
+      "index": {
+        "title": "GodeX – le journal du couple, privé et chiffré",
+        "description": "GodeX est le journal du couple pour iPhone : moments, notes privées révélées ensemble, jeu de couple, cycle partagé et Apple Santé. Sans serveurs à nous, sans pistage."
+      },
+      "privacy": {
+        "title": "Politique de confidentialité – GodeX",
+        "description": "Quelles données GodeX traite, où elles restent et comment les supprimer."
+      },
+      "terms": {
+        "title": "Conditions d'utilisation – GodeX",
+        "description": "Les conditions d'utilisation de l'app GodeX."
+      },
+      "support": {
+        "title": "Assistance et contact – GodeX",
+        "description": "Questions fréquentes, résolution des problèmes et contact de GodeX."
+      }
+    },
+    "placeholders": {
+      "controller": "RESPONSABLE DU TRAITEMENT : nom ou raison sociale",
+      "controller_address": "ADRESSE du responsable",
+      "privacy_email": "E-MAIL pour la confidentialité",
+      "support_email": "E-MAIL d'assistance",
+      "tester_email": "E-MAIL ou formulaire pour devenir testeur",
+      "testflight_url": "LIEN PUBLIC TESTFLIGHT",
+      "governing_law": "LOI APPLICABLE",
+      "court": "TRIBUNAL COMPÉTENT"
+    }
+  },
+  "es": {
+    "language_name": "Español",
+    "skip": "Ir al contenido",
+    "nav_label": "Menú principal",
+    "lang_label": "Idioma",
+    "nav_home": "Inicio",
+    "nav_privacy": "Privacidad",
+    "nav_terms": "Términos",
+    "nav_support": "Soporte",
+    "draft_title": "Borrador.",
+    "draft_text": "Este texto está en preparación y todavía no es válido: las partes resaltadas están por completar y el texto debe revisarlo un asesor legal antes de publicarlo en el App Store.",
+    "footer": "<ul><li><a href=\"privacy.html\">Política de privacidad</a></li><li><a href=\"terms.html\">Términos del servicio</a></li><li><a href=\"support.html\">Soporte y contacto</a></li></ul><p>GodeX está en fase de pruebas en iPhone. Este sitio no usa cookies, no rastrea las visitas y no carga nada de otros sitios.</p>",
+    "trademarks": "Apple, iPhone, iCloud, Apple Salud, Face ID, Siri y TestFlight son marcas de Apple Inc. GodeX no está afiliada a Apple.",
+    "pages": {
+      "index": {
+        "title": "GodeX – el diario de pareja, privado y cifrado",
+        "description": "GodeX es el diario de pareja para iPhone: momentos, votos privados que se revelan juntos, juego de pareja, ciclo compartido y Apple Salud. Sin servidores propios y sin rastreo."
+      },
+      "privacy": {
+        "title": "Política de privacidad – GodeX",
+        "description": "Qué datos trata GodeX, dónde se quedan y cómo eliminarlos."
+      },
+      "terms": {
+        "title": "Términos del servicio – GodeX",
+        "description": "Las condiciones de uso de la app GodeX."
+      },
+      "support": {
+        "title": "Soporte y contacto – GodeX",
+        "description": "Preguntas frecuentes, solución de problemas y contacto de GodeX."
+      }
+    },
+    "placeholders": {
+      "controller": "RESPONSABLE DEL TRATAMIENTO: nombre o razón social",
+      "controller_address": "DIRECCIÓN del responsable",
+      "privacy_email": "CORREO para privacidad",
+      "support_email": "CORREO de soporte",
+      "tester_email": "CORREO o formulario para ser tester",
+      "testflight_url": "ENLACE PÚBLICO DE TESTFLIGHT",
+      "governing_law": "LEY APLICABLE",
+      "court": "TRIBUNAL COMPETENTE"
+    }
+  }
+}
