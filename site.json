@@ -1,0 +1,16 @@
+{
+  "draft": true,
+  "last_updated": "2026-11-15",
+  "values": {
+    "controller": null,
+    "controller_address": null,
+    "privacy_email": null,
+    "support_email": null,
+    "tester_email": null,
+    "testflight_url": null,
+    "governing_law": null,
+    "court": null,
+    "base_url": null,
+    "domain": null
+  }
+}

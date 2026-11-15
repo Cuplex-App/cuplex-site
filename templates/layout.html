@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="{{lang}}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{title}}</title>
+  <meta name="description" content="{{description}}">
+  <meta name="color-scheme" content="dark">
+  <meta name="theme-color" content="#0E0B10">
+  <meta name="referrer" content="no-referrer">
+  {{alternates}}
+  <link rel="icon" href="{{root}}assets/img/logo.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="{{root}}assets/css/site.css">
+</head>
+<body class="{{body_class}}">
+  <a class="skip" href="#main">{{skip}}</a>
+  <header class="site-header">
+    <div class="wrap header-row">
+      <a class="brand" href="{{home}}">
+        <img src="{{root}}assets/img/logo.svg" alt="" width="36" height="36">
+        <span class="wordmark">Gode<span class="x">X</span></span>
+      </a>
+      <nav aria-label="{{nav_label}}">
+        <ul class="nav">
+          {{nav}}
+        </ul>
+      </nav>
+      <ul class="langs" aria-label="{{lang_label}}">
+          {{langs}}
+      </ul>
+    </div>
+  </header>
+  <main id="main" tabindex="-1">
+    {{draft}}
+    {{main}}
+  </main>
+  <footer class="site-footer">
+    <div class="wrap">
+      {{footer}}
+      <p class="small">{{trademarks}}</p>
+    </div>
+  </footer>
+</body>
+</html>
