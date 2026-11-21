@@ -59,9 +59,9 @@ h3 { font-size: 1.35rem; margin: 1.6em 0 0.4em; }
   .site-header { position: sticky; top: 0; z-index: 5; backdrop-filter: blur(12px); background: rgba(14, 11, 16, 0.72); }
 }
 .header-row { display: flex; align-items: center; gap: 12px 24px; flex-wrap: wrap; padding-top: 12px; padding-bottom: 12px; }
-.brand { display: flex; align-items: center; gap: 10px; text-decoration: none; color: var(--text); }
-.wordmark { font-family: var(--serif); font-size: 1.6rem; font-weight: 300; letter-spacing: 0.08em; }
-.wordmark .x, .gradient-text {
+.brand { display: flex; align-items: center; text-decoration: none; color: var(--text); }
+.brand img { display: block; height: 30px; width: auto; }
+.gradient-text {
   background: var(--gold-rose); -webkit-background-clip: text; background-clip: text; color: transparent;
 }
 .nav, .langs { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 4px 18px; }
