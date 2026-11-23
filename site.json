@@ -10,7 +10,7 @@
     "testflight_url": null,
     "governing_law": null,
     "court": null,
-    "base_url": null,
-    "domain": null
+    "base_url": "https://cuplex.app",
+    "domain": "cuplex.app"
   }
 }

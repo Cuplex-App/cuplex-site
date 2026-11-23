@@ -1,4 +1,4 @@
-/* GodeX: stile scuro elegante, come l'app (DesignSystem/Theme.swift). */
+/* Cuplex: stile scuro elegante, come l'app (DesignSystem/Theme.swift). */
 :root {
   --bg: #0E0B10;
   --surface: #1A1520;
@@ -60,7 +60,7 @@ h3 { font-size: 1.35rem; margin: 1.6em 0 0.4em; }
 }
 .header-row { display: flex; align-items: center; gap: 12px 24px; flex-wrap: wrap; padding-top: 12px; padding-bottom: 12px; }
 .brand { display: flex; align-items: center; text-decoration: none; color: var(--text); }
-.brand img { display: block; height: 30px; width: auto; }
+.brand img { display: block; height: 40px; width: auto; }
 .gradient-text {
   background: var(--gold-rose); -webkit-background-clip: text; background-clip: text; color: transparent;
 }
