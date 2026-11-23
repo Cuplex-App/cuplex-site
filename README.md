@@ -1,6 +1,6 @@
-# GodeX – sito
+# Cuplex – sito
 
-Sito statico di presentazione di GodeX, con le pagine che servono per l'App Store: informativa sulla privacy,
+Sito statico di presentazione di Cuplex, con le pagine che servono per l'App Store: informativa sulla privacy,
 termini di servizio, supporto e contatti. In italiano (alla radice), inglese (`/en/`), francese (`/fr/`) e spagnolo
 (`/es/`), come l'app. Pubblicato con GitHub Pages.
 
@@ -27,7 +27,7 @@ compilare.
 | `content/strings.json` | Testi comuni per lingua: menu, piè di pagina, titoli e descrizioni, nomi dei segnaposto |
 | `templates/layout.html` | Layout comune (intestazione, menu, lingue, piè di pagina) |
 | `assets/css/site.css` | Stile scuro (oro #E2BC6E, rosa #E2738F), come `DesignSystem/Theme.swift` dell'app |
-| `assets/img/` | Logo (`godex-lockup.svg` nell'intestazione, `logo.svg` il simbolo), favicon e icone, schermate dell'app (con dati di esempio, nessun dato reale) |
+| `assets/img/` | Logo (`cuplex-lockup.svg` nell'intestazione, `logo.svg` il simbolo), favicon e icone, schermate dell'app (con dati di esempio, nessun dato reale) |
 | `assets/site.webmanifest` | Manifest con le icone 192 e 512 |
 | `site.json` | Titolare, email, link di TestFlight, dominio; `draft` |
 | `.github/workflows/pages.yml` | Genera e pubblica su Pages a ogni push su `main`; sulle PR controlla solo la generazione |

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Genera il sito statico di GodeX in _site/ (solo libreria standard di Python 3).
+"""Genera il sito statico di Cuplex in _site/ (solo libreria standard di Python 3).
 
     python3 build.py            # genera _site/
     python3 build.py --serve    # genera e apre un server locale su http://localhost:8000
