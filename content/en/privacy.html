@@ -14,7 +14,7 @@
 
   <h2>1. Controller and contact</h2>
   <p>Controller: {{controller}}, {{controller_address}}. For any privacy question: {{mailto:privacy_email}}.</p>
-  <p><mark class="todo">[TO BE ASSESSED with the adviser: for which processing the developer is the controller, given that diary data stays on the device and in the user's iCloud and the developer has no access to it; outcome of the data protection impact assessment (DPIA) and whether a data protection officer (DPO) is needed.]</mark></p>
+  <p>The controller decides how the app works but does not receive and cannot read your diary data, which stays on your iPhone and in your iCloud. To be on the safe side, the controller still treats itself as controller of the processing the app performs. No data protection officer (DPO) has been appointed, because the controller does not process data on a large scale; a data protection impact assessment (DPIA) was carried out before launch.</p>
 
   <h2>2. What data the app processes</h2>
   <table>
@@ -22,10 +22,12 @@
     <tbody>
       <tr><td>Account</td><td>The anonymous identifier Apple assigns to Cuplex when you sign in with Apple. Cuplex <strong>does not ask</strong> for your name or email.</td><td>Your iPhone's Keychain</td></tr>
       <tr><td>Confirmations</td><td>Your confirmation that you are at least 18 and your consent to the processing of data about your health and sex life, with the date and version of the text.</td><td>Only on your iPhone</td></tr>
-      <tr><td>Diary moments</td><td>Date and time, duration, type, foreplay and toys, protection and contraceptive method, place (free text you type, no GPS location), notes, tags.</td><td>iPhone and iCloud</td></tr>
+      <tr><td>Diary moments</td><td>Date and time, duration, type, foreplay and toys, protection and contraceptive method, place (free text you type, no GPS location), notes, tags, feelings and what had an effect.</td><td>iPhone and iCloud</td></tr>
       <tr><td>Rating, mood and private notes</td><td>Your rating (1–5), your mood and the notes you mark as private.</td><td>iPhone and your private iCloud</td></tr>
-      <tr><td>Cycle</td><td>Start and end dates of your cycles and the predictions the app works out (next cycle, fertile window).</td><td>iPhone and your private iCloud</td></tr>
+      <tr><td>Cycle</td><td>Start and end dates of your cycles, flow, spotting and notes for single days, and the predictions the app works out (next cycle, fertile window).</td><td>iPhone and your private iCloud</td></tr>
       <tr><td>Couple</td><td>The link with your partner (iCloud sharing), the “I've rated” signal and, if you choose, your cycle or just the predictions. iCloud may show each of you the other's name, or the email/phone number the invitation was opened with.</td><td>The couple's shared iCloud zone</td></tr>
+      <tr><td>Wish list</td><td>Ideas to try together and your answer (yes, maybe, no). Your partner only learns that you answered; an idea shows up for both of you only if you both like it.</td><td>Your answer in your private iCloud, the ideas in the couple's shared zone</td></tr>
+      <tr><td>Cuplex Plus</td><td>The plan you bought and when it expires, read from the App Store. No payment data: purchase, payment and invoice are handled by Apple.</td><td>iPhone (and, for couple Plus, the shared zone)</td></tr>
       <tr><td>Reminders</td><td>Reminders for tests and check-ups that you create (type, frequency, due date).</td><td>Only on your iPhone</td></tr>
       <tr><td>Widgets</td><td>A summary with only numbers and neutral text (weeks in a row, points, level, days to the next event), never dates, types, ratings or notes.</td><td>Only on your iPhone</td></tr>
       <tr><td>Preferences</td><td>App settings (notifications, icon, widgets, what your partner sees).</td><td>Only on your iPhone</td></tr>
@@ -42,8 +44,8 @@
     <li><strong>writes</strong> moments to Health (as sexual activity, with a yes/no for protection) and cycles (menstrual flow);</li>
     <li><strong>reads</strong> your sexual activity and menstrual flow history from Health when you choose “Import from Health”.</li>
   </ul>
-  <p>Data read from Health becomes moments and cycles in your diary and follows the same rules. It is not used for advertising, profiling or any other purpose and is never sold or disclosed to third parties. You can change permissions in <em>Health → profile → Apps → Cuplex</em>.</p>
-  <p><mark class="todo">[TO BE CHECKED: whether storing data imported from Health in iCloud is compatible with App Store Review Guideline 5.1.3.]</mark></p>
+  <p>Data read from Health becomes moments and cycles in your diary, but stays only on your iPhone. It is not used for advertising, profiling or any other purpose and is never sold or disclosed to third parties. You can change permissions in <em>Health → profile → Apps → Cuplex</em>.</p>
+  <p>Data imported from Health (entries and cycles) stays <strong>only on your iPhone</strong>, in a local store with the highest file protection: it does not go to iCloud, does not reach your partner and we do not receive it. Your partner can only see the cycle predictions you choose to share, which the app also works out with this data. Your other devices do not receive it.</p>
 
   <h2>5. Where data is stored and who can see it</h2>
   <ul>
@@ -52,7 +54,7 @@
     <li><strong>With your partner</strong>: once you link up, shared moments move into an iCloud zone shared between the two of you, encrypted the same way. Rating, mood and private notes <strong>never</strong> enter the shared zone: your partner only receives the “I've rated” signal and sees the ratings only once you've both rated. Your cycle reaches your partner only as you choose (everything, predictions only, or nothing).</li>
     <li><strong>Cuplex (us)</strong> has no access to any of this data. There is no server or database of ours that receives it.</li>
   </ul>
-  <p>iCloud servers may be located outside the European Union: the transfer is handled by Apple under its terms. <mark class="todo">[TO BE CHECKED with the adviser: wording on transfers outside the EU.]</mark></p>
+  <p>Cuplex does not transfer data outside the European Union, because it does not receive any. iCloud and other Apple services may run on servers outside the EU: those transfers are made by Apple, under its terms with you and the GDPR safeguards described in its privacy policy.</p>
 
   <h2>6. Notifications</h2>
   <ul>
@@ -70,10 +72,14 @@
   </ul>
   <p>If you chose in iOS settings to share analytics with app developers, Apple may give us aggregated statistics and crash reports for the app, which contain no diary content. You can change this in <em>iOS Settings → Privacy &amp; Security → Analytics &amp; Improvements</em>.</p>
 
+  <p>If you take part in the TestFlight beta, Apple shows us in App Store Connect the feedback, screenshots and reports you choose to send and, if you were invited by email, your name and address. Please do not send screenshots with real data; we delete them once read.</p>
+
   <h2>8. Legal bases</h2>
   <ul>
     <li>Data about health and sex life: explicit consent (Art. 9(2)(a) and Art. 6(1)(a) GDPR).</li>
     <li>Running the app and the partner sharing you request: performance of the service (Art. 6(1)(b) GDPR).</li>
+    <li>Crash reports, Apple statistics, the TestFlight beta and replies to emails: legitimate interest in fixing the app and answering you (Art. 6(1)(f) GDPR).</li>
+    <li>Cuplex Plus purchases: performance of the contract (Art. 6(1)(b) GDPR); payment is processed by Apple.</li>
   </ul>
 
   <h2>9. How long</h2>
@@ -88,6 +94,7 @@
 
   <h2>12. This website</h2>
   <p>This site is hosted by GitHub Pages (GitHub, Inc.). It uses no cookies, analytics, or fonts and resources loaded from other sites. GitHub may log visitors' IP addresses for security and to run the service, under its own privacy policy. If you email us, we use your address and message only to reply.</p>
+  <p>Emails to {{mailto:privacy_email}} reach the controller's mailbox through Cloudflare's forwarding service. We keep them for at most 24 months after the last message.</p>
 
   <h2>13. Changes</h2>
   <p>If this policy changes, we update the date at the top. If the change concerns consent to health data, the app will ask you again before you continue.</p>

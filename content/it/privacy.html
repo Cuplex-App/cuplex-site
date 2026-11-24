@@ -14,7 +14,7 @@
 
   <h2>1. Titolare del trattamento e contatti</h2>
   <p>Titolare: {{controller}}, {{controller_address}}. Per qualsiasi domanda sulla privacy: {{mailto:privacy_email}}.</p>
-  <p><mark class="todo">[DA VALUTARE con il consulente: in quali trattamenti lo sviluppatore è titolare, dato che i dati del diario restano sul dispositivo e nell'iCloud dell'utente e lo sviluppatore non vi ha accesso; esito della valutazione d'impatto (DPIA) e se serve un responsabile della protezione dei dati (DPO).]</mark></p>
+  <p>Il titolare decide come funziona l'app, ma non riceve e non può leggere i dati del diario, che restano sul tuo iPhone e nel tuo iCloud. Per prudenza si considera comunque titolare del trattamento fatto dall'app. Non è stato designato un responsabile della protezione dei dati (DPO), perché il titolare non tratta i dati su larga scala; prima del lancio è stata fatta una valutazione d'impatto sulla protezione dei dati (DPIA).</p>
 
   <h2>2. Quali dati tratta l'app</h2>
   <table>
@@ -22,10 +22,12 @@
     <tbody>
       <tr><td>Account</td><td>L'identificativo anonimo che Apple assegna a Cuplex quando entri con Accedi con Apple. Cuplex <strong>non chiede</strong> né nome né email.</td><td>Portachiavi del tuo iPhone</td></tr>
       <tr><td>Conferme</td><td>La conferma di avere almeno 18 anni e il consenso al trattamento dei dati sulla salute e sulla vita sessuale, con data e versione del testo.</td><td>Solo sul tuo iPhone</td></tr>
-      <tr><td>Momenti del diario</td><td>Data e ora, durata, tipo di rapporto, preliminari e giochi, protezione e metodo contraccettivo, luogo (testo libero che scrivi tu, nessuna posizione GPS), note, etichette.</td><td>iPhone e iCloud</td></tr>
+      <tr><td>Momenti del diario</td><td>Data e ora, durata, tipo di rapporto, preliminari e giochi, protezione e metodo contraccettivo, luogo (testo libero che scrivi tu, nessuna posizione GPS), note, etichette, sensazioni e cosa ha influito.</td><td>iPhone e iCloud</td></tr>
       <tr><td>Voto, umore e note private</td><td>Il tuo voto (1–5), il tuo umore e le note che segni come private.</td><td>iPhone e il tuo iCloud privato</td></tr>
-      <tr><td>Ciclo</td><td>Date di inizio e fine dei cicli e le previsioni calcolate dall'app (prossimo ciclo, finestra fertile).</td><td>iPhone e il tuo iCloud privato</td></tr>
+      <tr><td>Ciclo</td><td>Date di inizio e fine dei cicli, flusso, spotting e note dei singoli giorni, e le previsioni calcolate dall'app (prossimo ciclo, finestra fertile).</td><td>iPhone e il tuo iCloud privato</td></tr>
       <tr><td>Coppia</td><td>Il collegamento con il partner (condivisione di iCloud), il segnale “ho votato” e, se lo scegli, il ciclo o le sole previsioni. iCloud può mostrarvi a vicenda il nome o l'email/numero con cui è stato aperto l'invito.</td><td>Zona condivisa di iCloud della coppia</td></tr>
+      <tr><td>Lista dei desideri</td><td>Le idee da provare insieme e la tua risposta (sì, forse, no). Al partner arriva solo che hai risposto; un'idea compare a tutti e due solo se piace a entrambi.</td><td>La risposta nel tuo iCloud privato, le idee nella zona condivisa della coppia</td></tr>
+      <tr><td>Cuplex Plus</td><td>Il piano acquistato e la sua scadenza, letti dall'App Store. Nessun dato di pagamento: acquisto, pagamento e fattura sono gestiti da Apple.</td><td>iPhone (e, per il Plus di coppia, la zona condivisa)</td></tr>
       <tr><td>Promemoria</td><td>Promemoria per test e controlli che crei tu (tipo, cadenza, scadenza).</td><td>Solo sul tuo iPhone</td></tr>
       <tr><td>Widget</td><td>Un riepilogo con soli numeri e testi neutri (settimane di serie, punti, livello, giorni al prossimo evento), mai date, tipi, voti o note.</td><td>Solo sul tuo iPhone</td></tr>
       <tr><td>Preferenze</td><td>Impostazioni dell'app (notifiche, icona, widget, cosa vede il partner).</td><td>Solo sul tuo iPhone</td></tr>
@@ -42,8 +44,8 @@
     <li><strong>scrive</strong> in Salute i momenti (come attività sessuale, con l'indicazione sì/no della protezione) e i cicli (flusso mestruale);</li>
     <li><strong>legge</strong> da Salute lo storico dell'attività sessuale e del flusso mestruale, quando scegli “Importa da Salute”.</li>
   </ul>
-  <p>I dati letti da Salute diventano momenti e cicli del tuo diario e seguono le stesse regole. Non sono usati per pubblicità, profilazione o altri scopi e non sono mai venduti né ceduti a terzi. Puoi cambiare i permessi in <em>Salute → profilo → App → Cuplex</em>.</p>
-  <p><mark class="todo">[DA VERIFICARE: compatibilità del salvataggio in iCloud dei dati importati da Salute con le linee guida App Store 5.1.3.]</mark></p>
+  <p>I dati letti da Salute diventano momenti e cicli del tuo diario, ma restano solo sul tuo iPhone. Non sono usati per pubblicità, profilazione o altri scopi e non sono mai venduti né ceduti a terzi. Puoi cambiare i permessi in <em>Salute → profilo → App → Cuplex</em>.</p>
+  <p>I dati importati da Salute (voci e cicli) restano <strong>solo sul tuo iPhone</strong>, in un archivio locale con la protezione dei file più alta: non vanno su iCloud, non arrivano al partner e non li riceviamo. Il partner può vedere solo le previsioni del ciclo che scegli di condividere, che l'app calcola anche con questi dati. Altri tuoi dispositivi non li ricevono.</p>
 
   <h2>5. Dove sono conservati i dati e chi può vederli</h2>
   <ul>
@@ -52,7 +54,7 @@
     <li><strong>Con il partner</strong>: quando vi collegate, i momenti condivisi passano in una zona di iCloud condivisa tra voi due, cifrata allo stesso modo. Voto, umore e note private <strong>non entrano mai</strong> nella zona condivisa: il partner riceve solo il segnale “ho votato” e vede i voti solo quando avete votato entrambi. Il ciclo arriva al partner solo come scegli tu (tutto, solo previsioni o niente).</li>
     <li><strong>Cuplex (noi)</strong> non ha accesso a nessuno di questi dati. Non esiste un nostro server o database che li riceva.</li>
   </ul>
-  <p>I server di iCloud possono trovarsi fuori dall'Unione europea: il trasferimento è gestito da Apple secondo le sue condizioni. <mark class="todo">[DA VERIFICARE con il consulente la formulazione sui trasferimenti extra UE.]</mark></p>
+  <p>Cuplex non trasferisce dati fuori dall'Unione europea, perché non li riceve. I server di iCloud e dei servizi Apple possono trovarsi anche fuori dall'UE: questi trasferimenti li fa Apple, in base ai suoi termini con te e alle garanzie previste dal GDPR indicate nella sua informativa sulla privacy.</p>
 
   <h2>6. Notifiche</h2>
   <ul>
@@ -70,10 +72,14 @@
   </ul>
   <p>Se nelle impostazioni di iOS hai scelto di condividere i dati di analisi con gli sviluppatori, Apple può fornirci statistiche aggregate e rapporti sugli arresti anomali dell'app, che non contengono i contenuti del diario. Questa scelta si cambia in <em>Impostazioni di iOS → Privacy e sicurezza → Analisi e miglioramenti</em>.</p>
 
+  <p>Se partecipi al test su TestFlight, Apple ci mostra in App Store Connect i feedback, gli screenshot e i rapporti che scegli di inviare e, se l'invito ti è arrivato via email, il tuo nome e indirizzo. Ti chiediamo di non inviare screenshot con dati veri; li cancelliamo dopo averli letti.</p>
+
   <h2>8. Basi giuridiche</h2>
   <ul>
     <li>Dati sulla salute e sulla vita sessuale: consenso esplicito (art. 9, par. 2, lett. a, e art. 6, par. 1, lett. a GDPR).</li>
     <li>Funzionamento dell'app e della condivisione con il partner che richiedi: esecuzione del servizio (art. 6, par. 1, lett. b GDPR).</li>
+    <li>Rapporti sugli arresti, statistiche di Apple, test su TestFlight e risposte alle email: legittimo interesse a correggere l'app e a risponderti (art. 6, par. 1, lett. f GDPR).</li>
+    <li>Acquisti di Cuplex Plus: esecuzione del contratto (art. 6, par. 1, lett. b GDPR); il pagamento lo tratta Apple.</li>
   </ul>
 
   <h2>9. Per quanto tempo</h2>
@@ -88,6 +94,7 @@
 
   <h2>12. Questo sito</h2>
   <p>Il sito è ospitato da GitHub Pages (GitHub, Inc.). Non usa cookie, strumenti di analisi o caratteri e risorse caricati da altri siti. GitHub può registrare l'indirizzo IP dei visitatori per sicurezza e funzionamento del servizio, secondo la propria informativa. Se ci scrivi via email usiamo il tuo indirizzo e il messaggio solo per risponderti.</p>
+  <p>Le email a {{mailto:privacy_email}} arrivano tramite il servizio di inoltro di Cloudflare alla casella del titolare. Le conserviamo al massimo 24 mesi dall'ultimo messaggio.</p>
 
   <h2>13. Modifiche</h2>
   <p>Se questa informativa cambia, aggiorniamo la data in alto. Se la modifica riguarda il consenso ai dati sulla salute, l'app te lo chiede di nuovo prima di continuare.</p>

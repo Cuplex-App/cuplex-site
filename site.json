@@ -1,15 +1,15 @@
 {
-  "draft": true,
-  "last_updated": "2026-11-15",
+  "draft": false,
+  "last_updated": "2026-11-24",
   "values": {
-    "controller": null,
-    "controller_address": null,
+    "controller": "Fabiano Roberto",
+    "controller_address": "Contrada Mastrella 9, 97013 Comiso (RG), Italia",
     "privacy_email": "hello@cuplex.app",
     "support_email": "hello@cuplex.app",
     "tester_email": "hello@cuplex.app",
     "testflight_url": "https://testflight.apple.com/join/Jm383TG5",
-    "governing_law": null,
-    "court": null,
+    "governing_law": "legge italiana",
+    "court": "foro di Comiso",
     "base_url": "https://cuplex.app",
     "domain": "cuplex.app"
   }
