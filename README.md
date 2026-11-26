@@ -21,6 +21,7 @@ compilare.
 | Percorso | Contenuto |
 |---|---|
 | `content/<lingua>/index.html` | Home: funzioni, privacy, widget, invito a fare da tester |
+| `content/<lingua>/plus.html` | Gratis e Plus: confronto tra le due versioni e i tre piani (da tenere allineato a `PlusFeature` e `PlusFreeFeatures` nell'app, vedi `docs/plus.md` di cuplex-ios) |
 | `content/<lingua>/privacy.html` | Informativa sulla privacy (bozza) |
 | `content/<lingua>/terms.html` | Termini di servizio (bozza) |
 | `content/<lingua>/support.html` | Supporto, domande frequenti, contatti |

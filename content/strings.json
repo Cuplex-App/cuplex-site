@@ -28,6 +28,10 @@
       "support": {
         "title": "Supporto e contatti – Cuplex",
         "description": "Domande frequenti, risoluzione dei problemi e contatti di Cuplex."
+      },
+      "plus": {
+        "title": "Gratis e Plus – Cuplex",
+        "description": "Cosa è gratis in Cuplex e cosa aggiunge Cuplex Plus: il confronto tra le due versioni e i tre piani."
       }
     },
     "placeholders": {
@@ -39,7 +43,8 @@
       "testflight_url": "LINK pubblico di TestFlight",
       "governing_law": "LEGGE APPLICABILE",
       "court": "FORO COMPETENTE"
-    }
+    },
+    "nav_plus": "Plus"
   },
   "en": {
     "language_name": "English",
@@ -70,6 +75,10 @@
       "support": {
         "title": "Support and contact – Cuplex",
         "description": "FAQ, troubleshooting and how to contact Cuplex."
+      },
+      "plus": {
+        "title": "Free and Plus – Cuplex",
+        "description": "What is free in Cuplex and what Cuplex Plus adds: the two versions compared, and the three plans."
       }
     },
     "placeholders": {
@@ -81,7 +90,8 @@
       "testflight_url": "PUBLIC TESTFLIGHT LINK",
       "governing_law": "GOVERNING LAW",
       "court": "COMPETENT COURT"
-    }
+    },
+    "nav_plus": "Plus"
   },
   "fr": {
     "language_name": "Français",
@@ -112,6 +122,10 @@
       "support": {
         "title": "Assistance et contact – Cuplex",
         "description": "Questions fréquentes, résolution des problèmes et contact de Cuplex."
+      },
+      "plus": {
+        "title": "Gratuit et Plus – Cuplex",
+        "description": "Ce qui est gratuit dans Cuplex et ce qu'ajoute Cuplex Plus : les deux versions comparées et les trois formules."
       }
     },
     "placeholders": {
@@ -123,7 +137,8 @@
       "testflight_url": "LIEN PUBLIC TESTFLIGHT",
       "governing_law": "LOI APPLICABLE",
       "court": "TRIBUNAL COMPÉTENT"
-    }
+    },
+    "nav_plus": "Plus"
   },
   "es": {
     "language_name": "Español",
@@ -154,6 +169,10 @@
       "support": {
         "title": "Soporte y contacto – Cuplex",
         "description": "Preguntas frecuentes, solución de problemas y contacto de Cuplex."
+      },
+      "plus": {
+        "title": "Gratis y Plus – Cuplex",
+        "description": "Qué es gratis en Cuplex y qué añade Cuplex Plus: las dos versiones comparadas y los tres planes."
       }
     },
     "placeholders": {
@@ -165,6 +184,7 @@
       "testflight_url": "ENLACE PÚBLICO DE TESTFLIGHT",
       "governing_law": "LEY APLICABLE",
       "court": "TRIBUNAL COMPETENTE"
-    }
+    },
+    "nav_plus": "Plus"
   }
 }

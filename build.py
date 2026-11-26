@@ -19,7 +19,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent
 OUT = ROOT / "_site"
 LANGS = ["it", "en", "fr", "es"]  # la prima e' alla radice del sito, le altre in /<lingua>/
-PAGES = ["index", "privacy", "terms", "support"]
+PAGES = ["index", "plus", "privacy", "terms", "support"]
 TOKEN = re.compile(r"\{\{\s*([a-z_:]+)\s*\}\}")
 
 
@@ -80,7 +80,7 @@ class Renderer:
 
 
 def nav(lang, page, s):
-    items = [("index", s["nav_home"]), ("privacy", s["nav_privacy"]), ("terms", s["nav_terms"]),
+    items = [("index", s["nav_home"]), ("plus", s["nav_plus"]), ("privacy", s["nav_privacy"]), ("terms", s["nav_terms"]),
              ("support", s["nav_support"])]
     out = []
     for p, label in items:
